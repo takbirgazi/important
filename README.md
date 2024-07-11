@@ -94,3 +94,17 @@ app.post("/logout", async (req, res) => {
     .send({ success: true });
 });
 ```
+
+
+## Git Commands
+
+1. Add:
+``` git add . ```
+2. Commit:
+``` git commit -m "Messages" ```
+2. Push First Time To Main Branch:
+   ``` git push -u origin main ```
+   Next Time:
+   ``` git push ```
+3. Remove The Last Commit
+``` git reset --soft HEAD~1 ```
