@@ -111,10 +111,11 @@ app.post("/logout", async (req, res) => {
 3. Pull Existing Project
 ``` git pull ```
 
-*Access Privet Repository*
-* Log In Your GitHub Account
+*Find your password to pull your private repository*
+* Log In to Your GitHub Account
 * Go to Profile And Click Settings
 * Click Developer settings
 * Select Tokens (classic) at Personal access tokens
 * Select Generate new token (classic) at Generate new token
-* Check All And Click Generate token Button.
+* Check All And Click the Generate token Button.
+* Copy The Token. That is your Password.
