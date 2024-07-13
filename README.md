@@ -108,3 +108,13 @@ app.post("/logout", async (req, res) => {
    ``` git push ```
 3. Remove The Last Commit
 ``` git reset --soft HEAD~1 ```
+3. Pull Existing Project
+``` git pull ```
+
+*Access Privet Repository*
+* Log In Your GitHub Account
+* Go to Profile And Click Settings
+* Click Developer settings
+* Select Tokens (classic) at Personal access tokens
+* Select Generate new token (classic) at Generate new token
+* Check All And Click Generate token Button.
