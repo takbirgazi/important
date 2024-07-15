@@ -119,3 +119,20 @@ app.post("/logout", async (req, res) => {
 * Select Generate new token (classic) at Generate new token
 * Check All And Click the Generate token Button.
 * Copy The Token. That is your Password.
+
+
+## React JS
+
+**React.js Install**
+
+# npm 7+, extra double-dash is needed:
+npm create vite@latest my-react-app -- --template react
+
+# yarn
+yarn create vite my-react-app --template react
+
+# pnpm
+pnpm create vite my-react-app --template react
+
+# bun
+bun create vite my-react-app --template react
