@@ -125,14 +125,16 @@ app.post("/logout", async (req, res) => {
 
 **React.js Install**
 
-# npm 7+, extra double-dash is needed:
+```
+// npm 7+, extra double-dash is needed:
 npm create vite@latest my-react-app -- --template react
 
-# yarn
+// yarn
 yarn create vite my-react-app --template react
 
-# pnpm
+// pnpm
 pnpm create vite my-react-app --template react
 
-# bun
+// bun
 bun create vite my-react-app --template react
+```
