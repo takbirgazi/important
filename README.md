@@ -123,7 +123,7 @@ app.post("/logout", async (req, res) => {
 
 ## React JS
 
-**React.js Install Use Vite or [Vite](https://vitejs.dev/guide/)**
+**React.js Install Use [Vite](https://vitejs.dev/guide/)**
 
 ```js
 // npm 7+, extra double-dash is needed:
