@@ -126,7 +126,7 @@ app.post("/logout", async (req, res) => {
 **React.js Install Use Vite**
 
 ```
-// npm 7+, extra double-dash is needed:
+<!--npm 7+, extra double-dash is needed:-->
 npm create vite@latest my-react-app -- --template react
 
 // yarn
