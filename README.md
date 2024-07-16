@@ -139,6 +139,14 @@ pnpm create vite my-react-app --template react
 bun create vite my-react-app --template react
 ```
 
+## Express Server
+
+**Install**
+
+```js
+// Install Express, CORS, dotenv, MongoDB
+npm install express cors dotenv mongodb
+```
 
 **Express Setup**
 
