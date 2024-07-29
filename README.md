@@ -102,13 +102,15 @@ app.post("/logout", async (req, res) => {
 ``` git add . ```
 2. Commit:
 ``` git commit -m "Messages" ```
-2. Push First Time To Main Branch:
+3. Connect GitHub Repository
+   ```git remote add origin https://github.com/takbirgazi/repository_name.git ```
+4. Push First Time To Main Branch:
    ``` git push -u origin main ```
    Next Time:
    ``` git push ```
-3. Remove The Last Commit
+5. Remove The Last Commit
 ``` git reset --soft HEAD~1 ```
-3. Pull Existing Project
+6. Pull Existing Project
 ``` git pull ```
 
 *Find your password to pull your private repository*
