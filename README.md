@@ -115,7 +115,7 @@ app.post("/logout", async (req, res) => {
 * Check Remote Repository
 ``` git remote -v ```
 * Change Remote Repository
-``` git remote set-url origin https://github.com/takbirgazi/repository_name.git ```
+``` git remote set-url origin https://github.com/takbirgazi/new_repository_name.git ```
 
 *Find your password to pull your private repository*
 * Log In to Your GitHub Account
