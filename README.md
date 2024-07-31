@@ -98,7 +98,7 @@ app.use(cors());
 //   next();
 // });
 ```
-## Express Server Deployment steps
+**Express Server Deployment steps**
 
 1. comment await commands outside api methods for solving gateway timeout error
 
