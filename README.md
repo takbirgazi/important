@@ -85,6 +85,8 @@ const port = process.env.PORT || 5000;
 app.use(express.json());
 app.use(cors());
 
+//Use app.use(cors()) OR ⤵️
+
 // app.use(cors({
 //     origin: ["http://localhost:5173", "https://assignment-10-5fcf9.web.app"]
 //   }))
@@ -103,7 +105,8 @@ app.use(cors());
 1. comment await commands outside api methods for solving gateway timeout error
 
 ```js
-//comment following commands
+// Comment following commands
+
 await client.connect();
 await client.db("admin").command({ ping: 1 });
 ```
@@ -132,7 +135,8 @@ await client.db("admin").command({ ping: 1 });
 3. Add Your production domains to your cors configuration. Don't use the URL we have provided inside origin. Replace them with your own. 
 
 ```js
-//Must remove "/" from your production URL
+// Must remove "/" from your production URL ➡️ http://localhost:5173/
+
 app.use(
   cors({
     origin: [
@@ -167,14 +171,16 @@ const cookieOptions = {
   secure: process.env.NODE_ENV === "production",
   sameSite: process.env.NODE_ENV === "production" ? "none" : "strict",
 };
-//localhost:5000 and localhost:5173 are treated as same site.  so sameSite value must be strict in the development server.  in production, sameSite will be none
+
+// localhost:5000 and localhost:5173 are treated as same site.  so sameSite value must be strict in the development server.  in production, sameSite will be none
 // in development server secure will false.  in production secure will be true
 ```
 
 **now we can use this object for the cookie option to modify cookies**
 
 ```js
-//creating Token
+//Creating Token
+
 app.post("/jwt", logger, async (req, res) => {
   const user = req.body;
   console.log("user for token", user);
@@ -183,7 +189,8 @@ app.post("/jwt", logger, async (req, res) => {
   res.cookie("token", token, cookieOptions).send({ success: true });
 });
 
-//clearing Token
+//Clearing Token
+
 app.post("/logout", async (req, res) => {
   const user = req.body;
   console.log("logging out", user);
