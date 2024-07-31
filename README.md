@@ -155,7 +155,7 @@ vercel --prod
 - check your public API
 
 
-<img src="code.jpg"/>
+<img src="assets/images/code.jpg"/>
 
 **Server Deployment Done**
 **If you are using a cookie, follow this extra process. We recommend using local storage to store tokens on the client side to avoid deployment issues.**
