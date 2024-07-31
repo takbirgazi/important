@@ -153,6 +153,21 @@ bun create vite my-react-app --template react
 // Install Express, CORS, dotenv, MongoDB
 npm install express cors dotenv mongodb
 ```
+**React-router URLs don't work when refreshing or writing manually**
+```js
+// Use this code when hosting it cPannel
+// Create .htaccess file and past it
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+  RewriteRule ^index\.html$ - [L]
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_FILENAME} !-l
+  RewriteRule . /index.html [L]
+</IfModule>
+```
 
 **Express Setup**
 
