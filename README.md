@@ -147,7 +147,7 @@ bun create vite my-react-app --template react
 **React-router URLs don't work when refreshing or writing manually**
 ```js
 // Use this code when hosting it cPannel
-// Create .htaccess file and past it
+// Create .htaccess file and paste it
 
 <IfModule mod_rewrite.c>
   RewriteEngine On
@@ -166,6 +166,7 @@ bun create vite my-react-app --template react
 
 ```js
 // Install Express, CORS, dotenv, MongoDB
+
 npm install express cors dotenv mongodb
 ```
 **Express Setup**
