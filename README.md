@@ -158,7 +158,7 @@ vercel --prod
 <img src="code.jpg"/>
 
 **Server Deployment Done**
-## If you are using a cookie, follow this extra process. We recommend using local storage to store tokens on the client side to avoid deployment issues.
+**If you are using a cookie, follow this extra process. We recommend using local storage to store tokens on the client side to avoid deployment issues.**
 1. Let's create cookie options for both the production and local server
 
 ```js
