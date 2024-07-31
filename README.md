@@ -144,15 +144,6 @@ pnpm create vite my-react-app --template react
 // bun
 bun create vite my-react-app --template react
 ```
-
-## Express Server
-
-**Install**
-
-```js
-// Install Express, CORS, dotenv, MongoDB
-npm install express cors dotenv mongodb
-```
 **React-router URLs don't work when refreshing or writing manually**
 ```js
 // Use this code when hosting it cPannel
@@ -169,6 +160,14 @@ npm install express cors dotenv mongodb
 </IfModule>
 ```
 
+## Express Server
+
+**Install**
+
+```js
+// Install Express, CORS, dotenv, MongoDB
+npm install express cors dotenv mongodb
+```
 **Express Setup**
 
 ```js
