@@ -50,7 +50,7 @@ bun create vite my-react-app --template react
 ```
 **React-router URLs don't work when refreshing or writing manually**
 ```js
-// Use this code when hosting it cPannel
+// Use this code when hosting it cPannel 
 // Create .htaccess file and paste it
 
 <IfModule mod_rewrite.c>
