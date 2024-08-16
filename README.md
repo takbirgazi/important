@@ -69,8 +69,11 @@ bun create vite my-react-app --template react
 **Install**
 
 ```js
+// npm Initialize 
+npm init
+```
+```js
 // Install Express, CORS, dotenv, MongoDB
-
 npm install express cors dotenv mongodb
 ```
 **Express Setup**
