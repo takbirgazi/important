@@ -20,6 +20,8 @@
 ``` git remote -v ```
 * Change Remote Repository
 ``` git remote set-url origin https://github.com/takbirgazi/new_repository_name.git ```
+* Push Forcefully Existing Branch like main
+``` git push -f -u origin main ```
 
 *Find your password to pull your private repository*
 * Log In to Your GitHub Account
