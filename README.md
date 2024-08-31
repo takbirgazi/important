@@ -52,7 +52,7 @@ bun create vite my-react-app --template react
 ```
 **React-router URLs don't work when refreshing or writing manually**
 ```js
-// Use this code when hosting it cPannel 
+// Use this code when hosting it cPannel Home Folder
 // Create .htaccess file and paste it
 
 <IfModule mod_rewrite.c>
@@ -64,6 +64,15 @@ bun create vite my-react-app --template react
   RewriteCond %{REQUEST_FILENAME} !-l
   RewriteRule . /index.html [L]
 </IfModule>
+```
+```js
+// Use this code when hosting it cPannel Sub Folder
+// Create .htaccess file and paste it
+
+ Options -MultiViews
+        RewriteEngine On
+        RewriteCond %{REQUEST_FILENAME} !-f
+        RewriteRule ^ index.html [QSA,L]
 ```
 
 ## Express Server
