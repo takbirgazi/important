@@ -26,7 +26,9 @@
 ``` git clone https://github.com/username/repository_name.git ```
 * Clone with specific branch
 ``` git clone -b branchname https://github.com/username/repository_name.git ```
-* Create and switch a new branch with the current branch code
+* Switch an existing branch
+``` git checkout branchname ```
+* Create and Switch a new branch with the current branch code
 ``` git checkout -b newbranchname ```
 * Check branch
 ``` git branch ```
