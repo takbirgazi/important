@@ -7,7 +7,7 @@
 * Commit:
 ``` git commit -m "Messages" ```
 * Connect GitHub Repository
-   ```git remote add origin https://github.com/takbirgazi/repository_name.git ```
+   ```git remote add origin https://github.com/username/repository_name.git ```
 * Push First Time To Main Branch:
    ``` git push -u origin main ```
    Next Time:
@@ -19,9 +19,17 @@
 * Check Remote Repository
 ``` git remote -v ```
 * Change Remote Repository
-``` git remote set-url origin https://github.com/takbirgazi/new_repository_name.git ```
+``` git remote set-url origin https://github.com/username/new_repository_name.git ```
 * Push Forcefully Existing Branch like main
 ``` git push -f -u origin main ```
+* Clone with default branch
+``` git clone https://github.com/username/repository_name.git ```
+* Clone with specific branch
+``` git clone -b branchname https://github.com/username/repository_name.git ```
+* Create and switch a new branch with the current branch code
+``` git checkout -b newbranchname ```
+* Check branch
+``` git branch ```
 
 *Find your password to pull your private repository*
 * Log In to Your GitHub Account
