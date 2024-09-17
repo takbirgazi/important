@@ -34,6 +34,8 @@
 ``` git checkout -b newbranchname ```
 * Check branch
 ``` git branch ```
+* Branch Merging
+``` git merge branchname ```
 
 *Find your password to pull your private repository*
 * Log In to Your GitHub Account
