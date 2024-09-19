@@ -16,6 +16,8 @@
 ``` git reset --soft HEAD~1 ```
 * Pull Existing Project
 ``` git pull ```
+* Pull from Other Branch
+``` git pull origin branchname ```
 * Check Remote Repository
 ``` git remote -v ```
 * Change Remote Repository
