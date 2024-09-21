@@ -2,6 +2,14 @@
 
 ## Git Commands
 
+* Check Git Configuration:
+``` git config --list ```
+* Add user name:
+``` git config --global user.name "your user name" ```
+* Add user email:
+``` git config --global user.email "yourname@email.com" ```
+* Set a default branch to main:
+``` git config --global init.defaultBranch main ```
 * Add:
 ``` git add . ```
 * Commit:
