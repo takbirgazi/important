@@ -31,7 +31,7 @@
 * Change Remote Repository
 ``` git remote set-url origin https://github.com/username/new_repository_name.git ```
 * Push Forcefully Existing Branch like main
-* ``` git push -f -u origin main ```
+``` git push -f -u origin main ```
 * Check Origin 
 ``` git remote show origin ```
 * Clone with default branch
