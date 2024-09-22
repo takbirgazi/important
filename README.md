@@ -44,6 +44,8 @@
 ``` git checkout -b newbranchname ```
 * Check branch
 ``` git branch ```
+* Delete a branch
+``` git branch -d branchname ```
 * Branch Merging
 ``` git merge branchname ```
 
