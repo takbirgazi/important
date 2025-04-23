@@ -28,8 +28,12 @@
 ``` git pull origin branchname ```
 * Check Remote Repository
 ``` git remote -v ```
+* Add Remote Repository
+```git remote add origin https://github.com/username/repository_name.git```
 * Change Remote Repository
 ``` git remote set-url origin https://github.com/username/new_repository_name.git ```
+* Remove Remote Repository
+```git remote remove origin```
 * Push Forcefully Existing Branch like main
 ``` git push -f -u origin main ```
 * Check Origin 
