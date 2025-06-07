@@ -14,8 +14,6 @@
 ``` git add . ```
 * Commit:
 ``` git commit -m "Messages" ```
-* Connect GitHub Repository
-   ```git remote add origin https://github.com/username/repository_name.git ```
 * Push First Time To Main Branch:
    ``` git push -u origin main ```
    Next Time:
