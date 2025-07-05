@@ -50,6 +50,8 @@
 ``` git branch -d branchname ```
 * Branch Merging
 ``` git merge branchname ```
+* Remove .env from git
+``` git rm --cached --ignore-unmatch .env ```
 
 *Find your password to pull your private repository*
 * Log In to Your GitHub Account
