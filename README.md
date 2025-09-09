@@ -12,6 +12,8 @@
 ``` git config --global init.defaultBranch main ```
 * Add:
 ``` git add . ```
+* Reset From Add .:
+``` git reset ```
 * Commit:
 ``` git commit -m "Messages" ```
 * Push First Time To Main Branch:
