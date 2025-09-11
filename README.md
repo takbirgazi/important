@@ -48,8 +48,12 @@
 ``` git checkout -b newbranchname ```
 * Check branch
 ``` git branch ```
-* Delete a branch
+* Delete a branch (safe)
 ``` git branch -d branchname ```
+* Delete a branch (force)
+``` git branch -D branchname ```
+* Delete a branch Remote
+``` git push origin --delete branchname ```
 * Branch Merging
 ``` git merge branchname ```
 * Remove .env from git
