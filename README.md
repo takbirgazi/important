@@ -54,6 +54,8 @@
 ``` git branch -D branchname ```
 * Delete a branch Remote
 ``` git push origin --delete branchname ```
+* Remove Untracked Data
+``` git stash ```
 * Branch Merging
 ``` git merge branchname ```
 * Remove .env from git
