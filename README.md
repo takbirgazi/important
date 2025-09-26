@@ -36,6 +36,14 @@
 ```git remote remove origin```
 * Push Forcefully Existing Branch like main
 ``` git push -f -u origin main ```
+* Check Status:
+``` git status ```
+* Check Status with time:
+```
+for f in $(git status --porcelain | awk '{print $2}'); do
+  stat -c "%y %n" "$f"
+done
+```
 * Check Origin 
 ``` git remote show origin ```
 * Clone with default branch
