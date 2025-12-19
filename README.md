@@ -66,6 +66,8 @@ done
 ``` git stash ```
 * Branch Merging
 ``` git merge branchname ```
+* Remove Director from git
+``` git rm -r directoryname ```
 * Remove .env from git
 ``` git rm --cached --ignore-unmatch .env ```
 
