@@ -38,7 +38,7 @@
 ``` git push -f -u origin main ```
 * Forcefully push like local development to remote main
 ``` git push --force origin origin/developmrnt:main ```
-* Forcefully pull from remote main branch
+* Forcefully pull from remote branch
 ``` git fetch origin && git reset --hard origin/main ```
 * Check Status:
 ``` git status ```
